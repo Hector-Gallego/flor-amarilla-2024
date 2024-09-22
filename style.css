@@ -3,7 +3,12 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
 }
-
+#audio {
+  position: fixed;
+  bottom: 10px; /* Ajusta la distancia desde el fondo */
+  right: 10px; /* Ajusta la distancia desde la derecha */
+  z-index: 100; /* Asegúrate de que esté por encima de otros elementos */
+}
 body {
   margin: 0;
   display: flex;
