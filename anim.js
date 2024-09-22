@@ -40,10 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
     { text: "Gracias por ser parte de mi vida, Te amo mucho, Kelly Haideé ❤. Con cariño, Héctor Gallego", time: 176 },
   ];
 
-  audio.addEventListener("loadeddata", function() {
-    audio.play(); // Reproduce el audio una vez que esté cargado
-  });
-
   audio.addEventListener("timeupdate", updateLyrics);
 
   function updateLyrics() {
